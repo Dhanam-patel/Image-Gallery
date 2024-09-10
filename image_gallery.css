@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+body {
+    background-color: black;
+}
+header {
+    display: grid;
+    grid-template-columns: 55vw 44vw;
+    background-color: black;
+    height: 20vh;
+}
+header .H1 {
+    text-align: center;
+    font-family: 'Harry Potter', sans-serif;
+    color: white;
+    position: relative;
+    top: 4vh;
+    font-size: 9vh;
+    right: 9vh;
+}
+header .H2 ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    top: 6vh;
+    
+}
+header .H2 ul li {
+    list-style: none;
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 3vw;
+    font-family: 'AWAKENNING', sans-serif;
+    text-decoration:none;
+}
+header .H2 ul li a {
+    text-decoration-line: none;
+    color:white ;
+}
+main {
+    background-color: black;
+    width: 99vw;
+}
+#about {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/035/061/306/small_2x/high-contrast-grunge-abstract-tech-corporate-motion-animated-background-video.jpg");
+    background-size: contain;
+    height:80vh;
+    width: 90vw;
+    margin: 0px auto auto auto;
+    border-radius: 50px;
+
+}
+.N1 {
+    font-size: 10vh;
+    color: white;
+    font-family: 'AWAKENNING', sans-serif;
+    text-align: center;
+}
+#about .content1 {
+    font-size: 5.4vh;
+    color: white;
+    text-align: center;
+    font-family: 'Frozito', sans-serif;   
+}
+
+#images {
+    background-color: black;
+    background-size: contain;
+    margin: 150px auto auto auto;
+    border-radius: 50px;
+}
+#images .content2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-row: auto auto;
+    grid-row-gap: 2.5vh;
+    width: 99vw;
+    margin: auto auto;
+    
+}
+#images .content2 .container {
+    height: 40vh;
+    width: 10vw;
+    margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 0;
+    transition: width 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 50px;
+}
+.imgs {
+    height: 50vh;
+}
+#images .content2 .container:hover {
+    justify-content:center;
+    z-index: 1;
+    width: 50vw;
+}
+#images .content2 .container .imgs:hover{
+    width: auto;
+}
+footer {
+    margin: 100px 0 0;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 44vw 50vw;
+}
+footer .source {
+    margin: 11vh 0 10vh;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    color: white;
+    text-align: center;
+
+}
+footer .source a {
+    text-decoration: none;
+    color: white;
+}
+footer .goodbye {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+footer .goodbye img {
+    border-radius: 50px;
+}
+
+
+
+
+ 
