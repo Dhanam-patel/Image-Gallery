@@ -97,6 +97,7 @@ main {
 }
 .imgs {
     height: 50vh;
+    border-radius:50px;
 }
 #images .content2 .container:hover {
     justify-content:center;
